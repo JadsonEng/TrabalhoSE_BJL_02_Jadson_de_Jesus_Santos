@@ -33,4 +33,4 @@ consolidar os conhecimentos adquiridos em aula sobre medição e componentes ele
 - Interrupções: Executam tarefas assíncronas, sem interferir no laço principal;
 - Tratamento de debounce: Evita que os botões sejam acionados múltiplas vezes.
 
-## ▶️ Link do Vídeo: 
+## ▶️ Link do Vídeo: https://youtu.be/W8R5u_J-rtE
