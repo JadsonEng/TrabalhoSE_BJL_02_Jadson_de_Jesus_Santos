@@ -1,12 +1,36 @@
-# Interface Homem-Máquina com Display OLED - RP2040 (BitDogLab)
+# Jadson de Jesus Santos - Ohmimetro
 
-# Descrição
+## 📚 Descrição
 
-Este projeto foi desenvolvido a placa BitDogLab. Tem como objetivo criar uma interface homem-máquina (IHM) utilizando um display OLED modelo "SSD1306" (resolução 128x64 pixels).
+Este projeto implementa um sistema que calcula a resistência e determina o código de cores de um resistor.
 
-A aplicação exibe informações em tempo real dos potenciômetros do joystick, como a leitura dos eixos X e Y. Também exibe o estado dos botões físicos e do botão do joystick. As informações são mostradas de forma organizada no display OLED via interface I2C, objetivando
-o estudo/aprendizado das funções da biblioteca do display.
+## 🎯 Objetivo
 
-Observação.
-- Implementação do modo BOOTSEL por botão externo (Botão B - GPIO 6). Isto facilita a gravação no desenvolvimento do programa. Quando o projeto for finalizado, deve-se retirar
-esta função.
+consolidar os conhecimentos adquiridos em aula sobre medição e componentes eletrônicos, propõe-se a realização de um projeto prático individual.
+
+## 📑 Requisitos
+
+- Plataforma de Desenvolvimento BitDogLab.
+- Visual Studio Code;
+- Extensões C/C++, CMAKE e Raspberry Pi Pico no VSCode;
+- Resistor de 10k Ohms
+- Resistores da Série E24;
+- Protoboard
+- Jumpers
+
+## ⚡ Divisor de Tensão
+
+![image](https://github.com/user-attachments/assets/b5ba4068-6f50-42a4-a2e5-dd3cb1a1eb9f)
+
+
+## 📋 Funcionamento
+
+
+
+- Display OLED: Exibe um menu que indica a resistência calculada ou o código de cores;
+- Botão A: Altera o menu do display, alternando entre exibir a resistência e o código de cores;
+- Botão B: Reset que inicia o Bootsel;
+- Interrupções: Executam tarefas assíncronas, sem interferir no laço principal;
+- Tratamento de debounce: Evita que os botões sejam acionados múltiplas vezes.
+
+## ▶️ Link do Vídeo: 
